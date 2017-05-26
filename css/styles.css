@@ -55,7 +55,7 @@ body {
 	cursor: default;
 	border: 1px solid #ccc;
 	border-radius: 4px;
-	background-color: #ddd;
+	background-color: #019ad2;
 	background-image: none;
 	filter: alpha(opacity=65);
 	opacity: .65;
@@ -129,6 +129,7 @@ body {
 	}
 		#tweet-controls {
 			text-align: right;
+			opacity: 0;
 		}
 			#tweet-controls div {
 				display: inline-block;
@@ -147,6 +148,7 @@ body {
 	min-height: 60px;
 	border-radius: 6px;
 }
+
 
 	.tweet .avatar {
 		float: left;
@@ -258,5 +260,3 @@ body {
 				top: 0;
 				left: 0;
 			}
-
-
